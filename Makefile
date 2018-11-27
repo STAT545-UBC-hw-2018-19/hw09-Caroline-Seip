@@ -10,6 +10,8 @@ histogram.png: histogram.tsv
 	Rscript -e 'library(ggplot2); qplot(Length, Freq, data=read.delim("$<")); ggsave("$@")'
 	rm Rplots.pdf
 
+firstletter.tsv:
+
 histogram.tsv: histogram.r words.txt
 	Rscript $<
 
