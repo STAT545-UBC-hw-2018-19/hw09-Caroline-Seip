@@ -1,7 +1,7 @@
-all: report.html
+all: report.html FirstLetter.html
 
 clean:
-	rm -f words.txt histogram.tsv histogram.png report.md report.html
+	rm -f words.txt histogram.tsv histogram.png report.md report.html firstletter.tsv
 
 report.html: report.rmd histogram.tsv histogram.png
 	Rscript -e 'rmarkdown::render("$<")'
