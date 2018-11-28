@@ -11,7 +11,7 @@ I chose to create an [R script](https://github.com/STAT545-UBC-students/hw09-Car
 This [Makefile](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/Makefile) automates the pipeline to automatically run this R script and create the output .html document.
 
 # Important files
-[Makefile](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/Makefile)
-[R script](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/firstletter.R)
-[Rmd](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/FirstLetter.Rmd)
-[html document](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/FirstLetter.html)
+- [Makefile](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/Makefile)
+- [R script](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/firstletter.R)
+- [Rmd](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/FirstLetter.Rmd)
+- [html document](https://github.com/STAT545-UBC-students/hw09-Caroline-Seip/blob/master/FirstLetter.html)
