@@ -9,11 +9,12 @@ report.html: report.rmd histogram.tsv histogram.png
 FirstLetter.html:FirstLetter.rmd firstletter.tsv barplot.png
 	Rscript -e 'rmarkdown::render("$<")'
 
-histogram.png: firstletter.r histogram.tsv
-	Rscript $<
+histogram.png: histogram.tsv
+	Rscript -e 'ggplot2::qplot(Length, Freq, data=read.delim("$<")); ggplot2::ggsave("$@")'
+	rm Rplots.pdf
 	
-barplot.png: firstletter.tsv
-	Rscript -e 'barplot(firstlettertable, main = "Number of words that start with each letter", xlab= "Letter", ylab= "Number of words")'
+barplot.png: firstletter.r words.txt
+	Rscript $<
 
 firstletter.tsv: firstletter.r words.txt
 	Rscript $<
