@@ -1,6 +1,6 @@
 make-activity
 =============
-This repository holds Caroline Seip's hw09 for UBC STAT547M.
+This repository holds Caroline Seip's [hw09](http://stat545.com/Classroom/assignments/hw09/hw09.html) for [UBC STAT547M](http://stat545.com/Classroom/).
 
 # Instructions
 The purpose of this assignment was to modify a [provided pipeline](https://github.com/STAT545-UBC/make-activity) to add a new meaningful analysis using an R script, and to create an output from an R Markdown file.
