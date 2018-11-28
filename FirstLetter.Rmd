@@ -11,13 +11,15 @@ output:
 bar_dat <- read.delim("firstletter.tsv")
 ```
 
-I computed the number of words that started with each letter of the alphabet
+For this assignment, I computed the number of words that started with each letter of the alphabet
 
-The most common first letter of a word was `r with(bar_dat, lowfirst[which.max(Freq)])`
+The most common first letter of a word was `r with(bar_dat, lowfirst[which.max(Freq)])`, which `r with(bar_dat, Freq[which.max(Freq)])` English words started with.
 
-Here is a barplot of the number of words starting with each letter
+The least common first letter of a word was `r with(bar_dat, lowfirst[which.min(Freq)])`, which `r with(bar_dat, Freq[which.min(Freq)])` English words started with.
 
-![*Fig. 1* A barplot of first letters of English words](barplot.png)
+Here is a barchart of the number of words starting with each letter:
+
+![**Fig. 1** Number of English words beginning with each letter of the alphabet](barplot.png)
 
 
 
